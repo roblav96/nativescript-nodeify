@@ -9,7 +9,7 @@ module.exports = function ($logger, $projectData, changesInfo) {
 
   function log(what) {
     // enable this line to see what the nodeify plugin is up to
-    // console.log(what);
+    console.log(`nodeify ->`, what)
   }
 
   var shims = require('./shims.json');
